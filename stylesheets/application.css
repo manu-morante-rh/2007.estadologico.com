@@ -1,16 +1,3 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 2:13:10 feb 11, 2007 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:54:26 ago 13, 2013.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 * {
 	margin: 0px;
 	padding: 0px;
@@ -37,7 +24,7 @@ html, body {
 #cabecera {
 	width: 734px;
 	height: 72px;
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/w2_02.jpg);
+	background-image: url(../images/w2_02.jpg);
 	background-repeat: no-repeat;
 	background-position: right top;
 	background-color: #2B3D51;
@@ -127,7 +114,7 @@ html, body {
 	width: 410px;
 	display: block;
 	float: left;
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/satelite.jpg);
+	background-image: url(../images/satelite.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 25px;
@@ -146,7 +133,7 @@ html, body {
 	height: 215px;
 }
 #webs img {
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_ico_web.jpg);
+	background-image: url(../images/bg_ico_web.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 7px;
@@ -173,7 +160,7 @@ html, body {
 	width: 283px;
 	display: block;
 	float: left;
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/satelite.jpg);
+	background-image: url(../images/satelite.jpg);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	padding-top: 20px;
@@ -195,7 +182,7 @@ html, body {
 	margin-left: 5px;
 }
 #webs-portafolio img {
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_ico_web.jpg);
+	background-image: url(../images/bg_ico_web.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 7px;
@@ -238,7 +225,7 @@ html, body {
 	margin-bottom: 5px;
 }
 #minis-portafolio img {
-	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_mini.jpg);
+	background-image: url(../images/bg_mini.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding: 9px;

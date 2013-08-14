@@ -1,25 +1,12 @@
-
-
-
-
-
-/*
-     FILE ARCHIVED ON 2:12:51 feb 11, 2007 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:54:26 ago 13, 2013.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 // JavaScript Document
 
 		function galeria(){
 			url=prompt('Escribe la URL','http://');
-			num=prompt('¿Cuantas fotos?','50');
-			num0=prompt('Número de ceros','3');
-			pre=prompt('¿Prefijo?','');
-			tipo=prompt('¿JPG, GIF, PNG, ...?','jpg');
-			inicio=prompt('Número inicial','1');
+			num=prompt('ï¿½Cuantas fotos?','50');
+			num0=prompt('Nï¿½mero de ceros','3');
+			pre=prompt('ï¿½Prefijo?','');
+			tipo=prompt('ï¿½JPG, GIF, PNG, ...?','jpg');
+			inicio=prompt('Nï¿½mero inicial','1');
 			for (var i=1;i<=num;i++) {
 				largo = "" + i;
 				ceros='';
@@ -74,7 +61,7 @@
 			}
 		}
 
-		// Gracias: Marc Palaueb.com
+		// Gracias: Marc Palau www.palaueb.com
 		try{
 			void noEnFrames();
 		}catch(unerror){}
