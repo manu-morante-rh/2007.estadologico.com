@@ -1,0 +1,350 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 2:13:10 feb 11, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:54:26 ago 13, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+* {
+	margin: 0px;
+	padding: 0px;
+	border:none;
+}
+.titulo {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #316AC5;
+	font-weight: normal;
+}
+html, body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #2A3C50;
+	color: #666666;
+}
+#contenido {
+	width: 734px;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+#cabecera {
+	width: 734px;
+	height: 72px;
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/w2_02.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #2B3D51;
+}
+#cabecera img {
+
+}
+#menu {
+	width: 728px;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	background-color: #A93F15;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #923512;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CD4B1B;
+}
+#menu li {
+	display: inline;
+}
+#menu a {
+	text-decoration: none;
+	color: #B1CADA;
+	font-weight: normal;
+	font-family: Tahoma;
+	font-size: 13px;
+	background-color: #32445A;
+	margin-right: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+#menu a:hover {
+	background-color: #496485;
+	color: #FFFFFF;
+
+}
+#superior {
+	clear: both;
+	background-color: #E8E8E8;
+	width: 100%;
+	display: block;
+	height: 40px;
+	color: #666666;
+}
+.relleno-comun {
+	margin: 0px;
+	padding: 25px;
+}
+.izquierda {
+	float: left;
+}
+
+
+
+#sint {
+	float: right;
+	margin-top: 5px;
+	margin-right: 15px;
+	font-weight: bold;
+	color: #DC7415;
+	font-style: italic;
+}
+#descripcion {
+	float: left;
+	margin-top: 5px;
+	margin-left: 15px;
+}
+#minis {
+	width: 220px;
+	float: right;
+	background-color: #F3F3F3;
+	padding: 25px;
+	border: 1px solid #E8E8E8;
+}
+#minis h2 {
+	font-size: 20px;
+	color: #DF710F;
+	padding-bottom: 10px;
+}
+#webs {
+	width: 410px;
+	display: block;
+	float: left;
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/satelite.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+}
+#webs h2 {
+	font-size: 18px;
+	color: #DF710F;
+	padding-bottom: 10px;
+}
+#webs div {
+	width: 130px;
+	float: left;
+	height: 215px;
+}
+#webs img {
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_ico_web.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 7px;
+}
+
+#webs h3 {
+	color: #6094DC;
+	font-size: 11px;
+	font-weight: normal;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+#webs h5 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+#webs a {
+	color: #316AC5;
+}
+#webs-portafolio {
+	width: 283px;
+	display: block;
+	float: left;
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/satelite.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#webs-portafolio h2 {
+	font-size: 15px;
+	color: #DF710F;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+#webs-portafolio div {
+	width: 130px;
+	float: left;
+	height: 200px;
+	margin-right: 6px;
+	margin-left: 5px;
+}
+#webs-portafolio img {
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_ico_web.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 7px;
+}
+
+#webs-portafolio h3 {
+	color: #6094DC;
+	font-size: 11px;
+	font-weight: normal;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+#webs-portafolio h5 {
+	font-size: 10px;
+	font-weight: normal;
+	color: #666666;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+#webs-portafolio a {
+	color: #316AC5;
+}
+#minis-portafolio {
+	width: 380px;
+	padding: 20px;
+	display: block;
+	float: right;
+}
+#minis-portafolio h2 {
+	font-size: 15px;
+	color: #DF710F;
+	padding-bottom: 10px;
+	font-weight: normal;
+}
+#minis-portafolio div {
+	float: left;
+	width: 180px;
+	height: 80px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+#minis-portafolio img {
+	background-image: url(/web/20070211021310/http://www.estadologico.com/arch/bg_mini.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 9px;
+	float: left;
+}
+#minis-portafolio h3 {
+	font-size: 11px;
+	font-weight: bold;
+	float: left;
+	width: 90px;
+	padding-top: 15px;
+	padding-left: 5px;
+	color: #316AC5;
+}
+#minis-portafolio h5 {
+	font-size: 11px;
+	font-weight: normal;
+	float: left;
+	padding-left: 5px;
+	color: #666666;
+}
+#juegos-lista {
+	width: 150px;
+	float: left;
+	padding-top: 35px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#juegos-texto {
+	float: left;
+	padding-top: 35px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	width: 300px;
+}
+
+#sonic {
+	float: left;
+}
+#juegos-lista ul {
+	list-style-type: none;
+}
+#juegos-lista a {
+	text-decoration: none;
+	color: #C66F12;
+	display: block;
+	border: 1px solid #EBE7D8;
+	height: 10px;
+	padding: 5px;
+}
+#juegos-lista li {
+	margin-bottom: 2px;
+}
+
+#juegos-lista a:hover {
+	color: #000000;
+	background-color: #F3F1E9;
+}
+#cuerpo-juego {
+	float: left;
+	width: 511px;
+	padding: 25px;
+}
+#cuerpo-juego img {
+	padding: 6px;
+}
+#descripcion-juego {
+	padding: 10px;
+	background-color: #F8F8F8;
+	margin: 8px;
+	width: 300px;
+	border: 1px dashed #999999;
+}
+#base {
+	width: 674px;
+	clear: both;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+#base p {
+	font-style: italic;
+	color: #333333;
+}
+
+#pie {
+	background-color: #6F3802;
+	padding: 12px;
+	font-size: 11px;
+	display: block;
+	clear: both;
+}
+#pie p {
+	color: #FFFFFF;
+}
+
+#pie li {
+	display: inline;
+	margin-right: 5px;
+}
+#pie a {
+	text-decoration: none;
+	color: #CC8211;
+}
+.derecha {
+	float: right;
+}
